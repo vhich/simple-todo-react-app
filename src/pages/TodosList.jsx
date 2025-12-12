@@ -54,7 +54,7 @@ const TodosList = ({ deleteTodo }) => {
             <button
               className={`mx-4 ${
                 isGrid
-                  ? "border-2  border-gray-500  text-white"
+                  ? "border-2  border-gray-500  text-gray-500"
                   : "bg-gray-600 text-white"
               }  px-4 rounded`}
               onClick={() => setIsGrid(false)}
