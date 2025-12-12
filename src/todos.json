@@ -1,0 +1,18 @@
+{
+  "Todos": [
+    {
+      "id": "eba2",
+      "title": "Wash all my dirty clothes",
+      "description": "I will have to wash all my dirty clothes tomorrow monday.",
+      "category": "Personal",
+      "createdAt": "Updated: Sun, Nov 30, 2025, 7:47 PM"
+    },
+    {
+      "id": "e571",
+      "title": "Go to the training ground",
+      "description": "Going to train for tomorrow's football match",
+      "category": "Business",
+      "createdAt": "Updated: Mon, Dec 8, 2025, 1:14 PM"
+    }
+  ]
+}

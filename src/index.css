@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 90%;
+}
+.todo-and-category {
+  align-items: center;
+  gap: 1rem;
+}
+.a-link {
+  cursor: pointer;
+}
+.date-picker {
+  width: 300%;
+  display: block;
+}
+.dark-mode {
+  background-color: #222;
+  color: #ededed;
+}
+.dark-mode .todo-list-item {
+  background-color: #292828;
+}
+.dark-mode p {
+  color: #ededed;
+}
+.dark-mode .form-wrapper {
+  background-color: #343434;
+}
+.dark-mode input {
+  border: 2px solid #868383;
+  color: #eae6e6;
+}
+.dark-mode select option {
+  color: #292828;
+}
+.dark-mode label {
+  color: #868383;
+}
+.dark-mode textarea {
+  border: 2px solid #868383;
+  color: #eae6e6;
+}
+
+@media (max-width: 700px) {
+  .select-view-type {
+    display: none;
+  }
+}
