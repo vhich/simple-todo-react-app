@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import TodoList from "../components/TodoList";
 
 const TodosList = ({ deleteTodo }) => {
-  const apiUrl = "http://localhost:3001/api/todos";
+  const apiUrl = "/api/todos";
   const [todos, setTodos] = useState([]);
   const [loading, setLoading] = useState(true);
   const [isGrid, setIsGrid] = useState(false);
