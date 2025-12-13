@@ -14,7 +14,7 @@ import SingleTodo, { todoLoader } from "./pages/SingleTodo";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
-  const apiUrl = "http://localhost:3001/api/todos";
+  const apiUrl = "/api/todos";
   // Create a todo
   const addTodo = async (newTodo) => {
     try {
