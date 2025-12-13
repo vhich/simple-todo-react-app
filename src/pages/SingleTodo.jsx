@@ -80,7 +80,7 @@ const SingleTodo = ({ deleteTodo }) => {
 
 const todoLoader = async ({ params }) => {
   try {
-    const apiUrl = `http://localhost:3001/api/todos`;
+    const apiUrl = `/api/todos`;
     const res = await fetch(`${apiUrl}/${params.id}`);
     const data = await res.json();
     return data;
